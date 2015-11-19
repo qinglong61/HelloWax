@@ -7,25 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1818CB7A1BF0F7AE00DB62BC /* ViewController.lua in Resources */ = {isa = PBXBuildFile; fileRef = 1818CB781BF0F7AE00DB62BC /* ViewController.lua */; };
 		D8137D1E1BF08B8B006650FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8137D1D1BF08B8B006650FC /* main.m */; };
 		D8137D211BF08B8B006650FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8137D201BF08B8B006650FC /* AppDelegate.m */; };
 		D8137D241BF08B8B006650FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8137D231BF08B8B006650FC /* ViewController.m */; };
-		D8137D271BF08B8B006650FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8137D251BF08B8B006650FC /* Main.storyboard */; };
-		D8137D291BF08B8B006650FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8137D281BF08B8B006650FC /* Assets.xcassets */; };
-		D8137D2C1BF08B8B006650FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8137D2A1BF08B8B006650FC /* LaunchScreen.storyboard */; };
+		D8137D351BF08BBD006650FC /* wax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8137D341BF08BBD006650FC /* wax.framework */; };
+		D86B3B7B1BF9DE67007C64F5 /* LuaConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = D86B3B7A1BF9DE67007C64F5 /* LuaConsole.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1818CB781BF0F7AE00DB62BC /* ViewController.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ViewController.lua; sourceTree = "<group>"; };
 		D8137D191BF08B8B006650FC /* HelloWax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8137D1D1BF08B8B006650FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D8137D1F1BF08B8B006650FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D8137D201BF08B8B006650FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D8137D221BF08B8B006650FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D8137D231BF08B8B006650FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D8137D261BF08B8B006650FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D8137D281BF08B8B006650FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D8137D2B1BF08B8B006650FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8137D2D1BF08B8B006650FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8137D341BF08BBD006650FC /* wax.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = wax.framework; sourceTree = "<group>"; };
+		D86B3B791BF9DE67007C64F5 /* LuaConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuaConsole.h; sourceTree = "<group>"; };
+		D86B3B7A1BF9DE67007C64F5 /* LuaConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuaConsole.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8137D351BF08BBD006650FC /* wax.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +44,7 @@
 		D8137D101BF08B8B006650FC = {
 			isa = PBXGroup;
 			children = (
+				D8137D331BF08BBD006650FC /* wax */,
 				D8137D1B1BF08B8B006650FC /* HelloWax */,
 				D8137D1A1BF08B8B006650FC /* Products */,
 			);
@@ -60,11 +63,11 @@
 			children = (
 				D8137D1F1BF08B8B006650FC /* AppDelegate.h */,
 				D8137D201BF08B8B006650FC /* AppDelegate.m */,
+				D86B3B791BF9DE67007C64F5 /* LuaConsole.h */,
+				D86B3B7A1BF9DE67007C64F5 /* LuaConsole.m */,
 				D8137D221BF08B8B006650FC /* ViewController.h */,
 				D8137D231BF08B8B006650FC /* ViewController.m */,
-				D8137D251BF08B8B006650FC /* Main.storyboard */,
-				D8137D281BF08B8B006650FC /* Assets.xcassets */,
-				D8137D2A1BF08B8B006650FC /* LaunchScreen.storyboard */,
+				1818CB781BF0F7AE00DB62BC /* ViewController.lua */,
 				D8137D2D1BF08B8B006650FC /* Info.plist */,
 				D8137D1C1BF08B8B006650FC /* Supporting Files */,
 			);
@@ -77,6 +80,15 @@
 				D8137D1D1BF08B8B006650FC /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8137D331BF08BBD006650FC /* wax */ = {
+			isa = PBXGroup;
+			children = (
+				D8137D341BF08BBD006650FC /* wax.framework */,
+			);
+			name = wax;
+			path = HelloWax/wax;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8137D2C1BF08B8B006650FC /* LaunchScreen.storyboard in Resources */,
-				D8137D291BF08B8B006650FC /* Assets.xcassets in Resources */,
-				D8137D271BF08B8B006650FC /* Main.storyboard in Resources */,
+				1818CB7A1BF0F7AE00DB62BC /* ViewController.lua in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86B3B7B1BF9DE67007C64F5 /* LuaConsole.m in Sources */,
 				D8137D241BF08B8B006650FC /* ViewController.m in Sources */,
 				D8137D211BF08B8B006650FC /* AppDelegate.m in Sources */,
 				D8137D1E1BF08B8B006650FC /* main.m in Sources */,
@@ -156,25 +167,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D8137D251BF08B8B006650FC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D8137D261BF08B8B006650FC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D8137D2A1BF08B8B006650FC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D8137D2B1BF08B8B006650FC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D8137D2E1BF08B8B006650FC /* Debug */ = {
@@ -263,10 +255,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HelloWax/wax",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = HelloWax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HelloWax/lua",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = duan.HelloWax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -274,10 +279,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HelloWax/wax",
+				);
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = HelloWax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HelloWax/lua",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = duan.HelloWax;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SHARED_PRECOMPS_DIR = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -300,6 +318,7 @@
 				D8137D321BF08B8B006650FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
