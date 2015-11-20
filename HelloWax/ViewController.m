@@ -37,9 +37,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-//    lua_State *L = wax_currentLuaState();
-//    lua_pushlightuserdata(L, "test");
     
     UITextView *tv = [[UITextView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:tv];
@@ -58,6 +55,9 @@
 
 - (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text
 {
+    if ([text isEqualToString:@""] && [[textView.text substringFromIndex:currentIndex] isEqualToString:@""]) {
+        return NO;//handle delete key
+    }
     if ([text isEqualToString:@"\n"]) {
         NSString *code = [textView.text substringFromIndex:currentIndex];
         NSString *result = [self.console run:code];

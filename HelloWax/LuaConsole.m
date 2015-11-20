@@ -39,8 +39,6 @@
 {
     if (self = [super init])
     {
-//        NSLog(@"%@\n", LOG_FILE_PATH);
-        
         NSFileManager *fileManager = [NSFileManager defaultManager];
         if (![fileManager fileExistsAtPath:LOG_FILE_PATH]) {
             [fileManager createFileAtPath:LOG_FILE_PATH contents:nil attributes:nil];
