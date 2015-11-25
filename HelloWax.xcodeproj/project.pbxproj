@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1818CB781BF0F7AE00DB62BC /* ViewController.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ViewController.lua; sourceTree = "<group>"; };
+		1818CB781BF0F7AE00DB62BC /* ViewController.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ViewController.lua; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.lua; };
 		D8137D191BF08B8B006650FC /* HelloWax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWax.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8137D1D1BF08B8B006650FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D8137D1F1BF08B8B006650FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };

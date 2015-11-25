@@ -18,7 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     wax_start(nil, nil);
-//    wax_runLuaFile("ViewController.lua");
+    wax_runLuaFile("ViewController.lua");
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.viewController = [[ViewController alloc] init];
